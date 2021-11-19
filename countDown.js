@@ -7,7 +7,6 @@ messagesRandom = [
     'What are you waiting for? ',
     'It is not funny. ',
     'Just do it! ',
-    'Vypestovivay!',
     'Seriously, it is not rocket science! '
 ]
 
@@ -19,9 +18,7 @@ class Task {
     getDaysLeft() {
         const currentDate = new Date(Date.now());
         const completeDate = new Date(this.completeDate);
-        const diffTime = (completeDate - currentDate);
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
-        return diffDays;
+        return Math.ceil((completeDate - currentDate) / (1000 * 60 * 60 * 24)); // Get dates difference in ms and convert to days
     }
 }
 

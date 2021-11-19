@@ -1,0 +1,21 @@
+{
+    "telegramBotToken": "",
+    "telegramChatId": "",
+    "tasks":[
+        {
+            "taskName": "Task1",
+            "taskEndDate": "11/18/2021",
+            "isEnabled": 0
+        },
+        {
+            "taskName": "Task2",
+            "taskEndDate": "01/10/2022",
+            "isEnabled": 1
+        },
+        {
+            "taskName": "Black Friday",
+            "taskEndDate": "11/26/2021",
+            "isEnabled": 1
+        }
+    ]
+}
